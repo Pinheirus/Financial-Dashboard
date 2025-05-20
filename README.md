@@ -1,7 +1,6 @@
 # 💰 Financial Dashboard
 
-![Project Banner]![image](https://github.com/user-attachments/assets/ebf514c3-5021-4c8b-807c-4d37a5c1e44f)
-
+[image](https://github.com/user-attachments/assets/ebf514c3-5021-4c8b-807c-4d37a5c1e44f)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/financial-dashboard/pulls)
 
