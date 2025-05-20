@@ -1,66 +1,67 @@
-# 📊 FinDash - Dashboard de Organização Financeira
+# 📊 FinDash - Financial Management Dashboard
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://semver.org)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/yourusername/findash/graphs/commit-activity)
 
-Um dashboard completo de organização financeira desenvolvido para ajudar usuários a gerenciar, visualizar e otimizar suas finanças pessoais ou empresariais. O FinDash oferece uma interface intuitiva, visualizações detalhadas e ferramentas avançadas de análise financeira.
+A fully featured financial management dashboard built to help users efficiently manage, visualize, and optimize their personal or business finances. FinDash combines an intuitive interface with rich visualizations and advanced tools for in-depth financial analysis.
 
 ![Financial Dashboard Screenshot](https://github.com/user-attachments/assets/ebf514c3-5021-4c8b-807c-4d37a5c1e44f)
 
-## ✨ Funcionalidades
+## ✨ Features
 
-### Dashboard Principal
-- Visão geral mensal de receitas, despesas e saldo
-- Gráficos de tendências (linha, barras) para análise temporal
-- Indicadores-chave (KPIs) comparando economia vs. metas estabelecidas
-- Widgets personalizáveis para organização da interface
+### Main Dashboard
+- Monthly overview of income, expenses, and balance
+- Trend charts (line, bar) for time-based analysis
+- Key Performance Indicators (KPIs) comparing savings vs. goals
 
-### Registro Financeiro
-- Sistema CRUD completo para receitas e despesas
-- Categorização avançada com tags e categorias personalizáveis
-- Upload de comprovantes (imagens/PDF) para cada transação
-- Operações em lote e automação de transações recorrentes
+Customizable widgets for organizing the interface
 
-### Contas Bancárias
-- Cadastro e gerenciamento de múltiplas contas e carteiras
-- Visualização de saldo consolidado entre todas as contas
-- Ferramentas de reconciliação bancária
-- Histórico de transações por conta
+### Financial Record
+-Full CRUD system for income and expenses
+-Advanced categorization with customizable tags and categories
+-Receipt uploads (images/PDFs) for each transaction
+-Batch operations and automation for recurring transactions
 
-### Visualização de Dados
-- Gráficos interativos por categoria, período e tipo de transação
-- Comparativos entre mês atual e períodos anteriores
-- Capacidade de análise detalhada (drill-down)
-- Dashboards de relatórios personalizáveis
+### Bank Accounts
+-Register and manage multiple accounts and wallets
+-Consolidated balance view across all accounts
+-Bank reconciliation tools
+-Transaction history per account
 
-### Previsão de Gastos
-- Algoritmos de previsão baseados no histórico de transações
-- Recomendações de orçamento baseadas em padrões de gastos
-- Alertas para gastos incomuns ou potenciais estouros de orçamento
-- Ferramentas de planejamento de cenários para definição de metas financeiras
+### Data Visualization
+-Interactive charts by category, period, and transaction type
+-Comparisons between the current month and previous periods
+-Drill-down capabilities for detailed analysis
+-Customizable reporting dashboards
 
-### Exportação e Integração
-- Exportação de relatórios em múltiplos formatos (PDF, Excel, CSV)
-- API segura para integração com outras ferramentas
-- Backup automático programado com opções de armazenamento em nuvem
-- Ferramentas de importação para migração de outras plataformas
+### Expense Forecasting
+-Forecasting algorithms based on transaction history
+-Budget recommendations based on spending patterns
+-Alerts for unusual spending or potential budget overruns
+-Scenario planning tools for financial goal setting
 
-## 🛠️ Tecnologias Utilizadas
+### Export and Integration
+-Report export in multiple formats (PDF, Excel, CSV)
+-Secure API for integration with other tools
+-Scheduled automatic backups with cloud storage options
+-Import tools for migration from other platforms
+
+## 🛠️ Technologies Used
 
 ### Frontend
-- React.js com TypeScript
-- Redux para gerenciamento de estado
-- D3.js e Chart.js para visualizações
-- Material UI para componentes de interface
+- React.js with TypeScript
+- Redux for state management
+- D3.js and Chart.js for visualizations
+- Material UI for UI components
 
-## 📋 Pré-requisitos
+## 📋 Prerequisites
 
-- Node.js (v14.0.0 ou superior)
-- NPM (v7.0.0 ou superior) ou Yarn (v1.22.0 ou superior)
-- Conexão com internet para recursos em nuvem
+-Node.js (v14.0.0 or higher)
+-NPM (v7.0.0 or higher) or Yarn (v1.22.0 or higher)
+-Internet connection for cloud-based features
 
-## 🚀 Instalação
+## 🚀 Installation
 
 1. Clone o repositório:
    ```bash
@@ -92,61 +93,14 @@ Um dashboard completo de organização financeira desenvolvido para ajudar usuá
    yarn dev
    ```
 
-5. Acesse a aplicação em `http://localhost:3000`
+5. Access the application at http://localhost:3000
 
-## 📖 Guia de Uso
+## 🤝 Contributing
 
-### Primeiros Passos
+Contributions are welcome! To contribute:
 
-1. **Cadastro e Login**: Crie uma conta ou faça login para acessar o dashboard.
-2. **Configuração Inicial**: Configure suas preferências de moeda, contas bancárias e metas financeiras.
-3. **Importação de Dados**: Importe dados existentes ou comece a registrar suas transações manualmente.
-
-### Registro de Transações
-
-1. Clique no botão "Nova Transação" no dashboard principal.
-2. Preencha os detalhes da transação (valor, data, categoria, etc.).
-3. Anexe comprovantes se necessário.
-4. Salve a transação para atualizar automaticamente o dashboard.
-
-### Visualização e Análise
-
-1. Utilize os filtros no topo do dashboard para selecionar períodos específicos.
-2. Explore os diferentes gráficos e visualizações para análise detalhada.
-3. Utilize a função de comparação para avaliar seu desempenho financeiro ao longo do tempo.
-
-### Exportação de Relatórios
-
-1. Acesse a seção "Relatórios" no menu principal.
-2. Selecione o tipo de relatório e período desejado.
-3. Escolha o formato de exportação (PDF, Excel, CSV).
-4. Clique em "Gerar Relatório" para baixar o arquivo.
-
-## 🔒 Segurança e Privacidade
-
-O FinDash foi desenvolvido com foco em segurança e privacidade:
-
-- Criptografia de ponta a ponta para todos os dados financeiros
-- Autenticação multi-fator disponível
-- Controle de acesso baseado em funções para contas compartilhadas
-- Logs detalhados de todas as atividades do sistema
-- Conformidade com regulamentações financeiras relevantes
-- Políticas de retenção de dados configuráveis
-
-## 🛣️ Roadmap
-
-- **Q3 2025**: Integração com bancos via Open Banking
-- **Q4 2025**: Aplicativo móvel nativo (iOS e Android)
-- **Q1 2026**: Recursos avançados de planejamento tributário
-- **Q2 2026**: Integração com plataformas de investimento
-- **Q3 2026**: Recursos de inteligência artificial para otimização financeira
-
-## 🤝 Contribuição
-
-Contribuições são bem-vindas! Para contribuir:
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
