@@ -1,6 +1,6 @@
 # 💰 Financial Dashboard
 
-[image](https://github.com/user-attachments/assets/ebf514c3-5021-4c8b-807c-4d37a5c1e44f)
+![Financial Dashboard Screenshot](https://github.com/user-attachments/assets/ebf514c3-5021-4c8b-807c-4d37a5c1e44f)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/financial-dashboard/pulls)
 
@@ -22,7 +22,6 @@ graph LR
     B --> E[Automatic Categorization]
     C --> F[Goal Tracking]
     D --> G[Interactive Visualizations]
-
 🚀 Features
 Core Functionalities
 Feature	Description	Status
@@ -54,3 +53,31 @@ cp .env.example .env
 
 # Run development server
 npm run dev
+📚 Documentation
+Explore our detailed docs:
+
+API Reference
+
+Database Schema
+
+UI Components
+
+🤝 Contributing
+We welcome contributions! Please follow our guidelines:
+
+Fork the repository
+
+Create a feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+📜 License
+Distributed under the MIT License. See LICENSE for more information.
+
+📬 Contact
+Project Maintainer - Your Name
+Project Link - https://github.com/yourusername/financial-dashboard
