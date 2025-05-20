@@ -190,22 +190,3 @@ Contribuições são bem-vindas! Para contribuir:
 3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
-
-Por favor, leia [CONTRIBUTING.md](https://github.com/yourusername/findash/blob/main/CONTRIBUTING.md) para detalhes sobre nosso código de conduta e processo de submissão de Pull Requests.
-
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](https://github.com/yourusername/findash/blob/main/LICENSE.md) para detalhes.
-
-## 📞 Contato e Suporte
-
-- **Website**: [findash.example.com](https://findash.example.com)
-- **Email**: support@findash.example.com
-- **Twitter**: [@findash](https://twitter.com/findash)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/findash/issues)
-
----
-
-<p align="center">
-  Desenvolvido com ❤️ pela Equipe FinDash
-</p>
