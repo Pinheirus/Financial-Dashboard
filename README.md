@@ -6,7 +6,7 @@
 
 Um dashboard completo de organização financeira desenvolvido para ajudar usuários a gerenciar, visualizar e otimizar suas finanças pessoais ou empresariais. O FinDash oferece uma interface intuitiva, visualizações detalhadas e ferramentas avançadas de análise financeira.
 
-![FinDash Preview](https://via.placeholder.com/800x400?text=FinDash+Preview)
+![Financial Dashboard Screenshot](https://github.com/user-attachments/assets/ebf514c3-5021-4c8b-807c-4d37a5c1e44f)
 
 ## ✨ Funcionalidades
 
@@ -54,22 +54,9 @@ Um dashboard completo de organização financeira desenvolvido para ajudar usuá
 - D3.js e Chart.js para visualizações
 - Material UI para componentes de interface
 
-### Backend
-- Node.js com Express
-- MongoDB para armazenamento de dados
-- JWT para autenticação segura
-- Socket.IO para atualizações em tempo real
-
-### Infraestrutura
-- Docker para containerização
-- AWS/Google Cloud para hospedagem
-- GitHub Actions para CI/CD
-- Testes automatizados com Jest e Cypress
-
 ## 📋 Pré-requisitos
 
 - Node.js (v14.0.0 ou superior)
-- MongoDB (v4.4 ou superior)
 - NPM (v7.0.0 ou superior) ou Yarn (v1.22.0 ou superior)
 - Conexão com internet para recursos em nuvem
 
@@ -106,33 +93,6 @@ Um dashboard completo de organização financeira desenvolvido para ajudar usuá
    ```
 
 5. Acesse a aplicação em `http://localhost:3000`
-
-## 📁 Estrutura do Projeto
-
-```
-findash/
-├── client/                 # Frontend React
-│   ├── public/             # Arquivos estáticos
-│   ├── src/                # Código fonte React
-│   │   ├── components/     # Componentes reutilizáveis
-│   │   ├── pages/          # Páginas da aplicação
-│   │   ├── services/       # Serviços e APIs
-│   │   ├── store/          # Gerenciamento de estado (Redux)
-│   │   └── utils/          # Funções utilitárias
-│   └── package.json        # Dependências do frontend
-├── server/                 # Backend Node.js
-│   ├── src/                # Código fonte do servidor
-│   │   ├── controllers/    # Controladores de rotas
-│   │   ├── models/         # Modelos de dados
-│   │   ├── routes/         # Definições de rotas
-│   │   ├── services/       # Serviços de negócio
-│   │   └── utils/          # Funções utilitárias
-│   └── package.json        # Dependências do backend
-├── .env.example            # Exemplo de variáveis de ambiente
-├── docker-compose.yml      # Configuração Docker
-├── package.json            # Dependências do projeto raiz
-└── README.md               # Este arquivo
-```
 
 ## 📖 Guia de Uso
 
